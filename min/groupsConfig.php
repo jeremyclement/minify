@@ -12,6 +12,16 @@
  **/
 
 return array(
-    // 'js' => array('//js/file1.js', '//js/file2.js'),
-    // 'css' => array('//css/file1.css', '//css/file2.css'),
+    'js-init' => array(
+        '//js/vendor/jquery.mousewheel.js', 
+        '//js/vendor/jquery.slides.js',
+        '//js/vendor/jquery.magnific-popup.min.js',
+        '//js/init.js'
+    ),
+    'js-exec' => array(
+        '//js/main.js'
+    ),
+    'css' => array(
+        '//css/screen.css'
+    )
 );
